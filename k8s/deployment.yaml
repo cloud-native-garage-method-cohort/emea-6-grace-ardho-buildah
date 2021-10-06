@@ -19,7 +19,7 @@ spec:
       dnsPolicy: ClusterFirst
       schedulerName: default-scheduler
       containers:
-      - name: express-sample-app
+      - name: graceful-app
         image: quay.io/upslopeio/express-sample-app:d90c742ee626048c4d1e2032eb836255e4036561
         ports:
         - name: http
