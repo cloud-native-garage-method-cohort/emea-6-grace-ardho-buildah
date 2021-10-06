@@ -17,7 +17,7 @@ spec:
           - name: app-name
             value: graceful-app
           - name: source-repo
-            value: $(tt.params.source-repo)
+            value: https://github.com/cloud-native-garage-method-cohort/emea-6-grace-ardho-buildah
           - name: image-repo
             value: quay.io/ardho/graceful-app
         workspaces:
